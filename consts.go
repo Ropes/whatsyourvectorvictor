@@ -1,6 +1,6 @@
 package whatsyourvectorvictor
 
-// Alphabet is the array of strings
+// Alphabet is the list of the NATO phonetic alphabet, easy index reference.
 var Alphabet = []string{
 	"alpha",
 	"bravo",
@@ -30,7 +30,7 @@ var Alphabet = []string{
 	"zulu",
 }
 
-// Digits translate ints to string names
+// Digits translate ints to phonetic designations.
 var Digits = map[int]string{
 	0: "zero",
 	1: "one",
@@ -44,7 +44,7 @@ var Digits = map[int]string{
 	9: "niner",
 }
 
-// USMCDigits are the USMC's extra flavor
+// USMCDigits are the USMC's extra flavor on phonetic number designations.
 var USMCDigits = map[int]string{
 	0: "zero",
 	1: "won",
